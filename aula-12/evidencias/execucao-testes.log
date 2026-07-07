@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/filipe/Área de Trabalho/senac-localeats/aula-12
+configfile: pytest.ini
+testpaths: tests
+plugins: base-url-2.1.0, bdd-8.1.0, playwright-0.8.0
+collecting ... collected 2 items
+
+tests/test_filtro_categoria.py::test_filtrar_restaurantes_por_culinária_japonesa PASSED [ 50%]
+tests/test_filtro_categoria.py::test_restaurar_listagem_completa_com_filtro_todos PASSED [100%]
+
+============================== 2 passed in 10.63s ==============================

@@ -59,10 +59,7 @@ senac-localeats/
 |---|---|
 | **Título da Issue** | [Feature] Implementar cálculo do total do pedido com valor mínimo |
 | **Objetivo da funcionalidade** | Calcular automaticamente a soma dos itens do pedido e validar se o total atinge o valor mínimo exigido pelo restaurante, evitando pedidos inválidos no LocalEats |
-| **Link da Issue** | https://github.com/FilipeTenedini/senac-localeats/issues/new?template=feature.yml |
-
-> **Corpo da Issue:** ver `aula-17/issues/issue-01-feature-calculo-pedido.md`  
-> Após publicar no GitHub, substituir o link acima pelo número real (ex.: `/issues/1`).
+| **Link da Issue** | https://github.com/FilipeTenedini/senac-localeats/issues/1 |
 
 ---
 
@@ -209,9 +206,7 @@ tests/test_pedido.py::test_deve_lancar_erro_quando_total_fica_abaixo_do_valor_mi
 |---|---|
 | **Título do defeito** | [Bug] Cálculo do total retorna quantidade de itens em vez da soma dos preços |
 | **Severidade** | Alta |
-| **Link da Issue** | https://github.com/FilipeTenedini/senac-localeats/issues/new?template=bug.yml |
-
-> **Corpo da Issue:** ver `aula-17/issues/issue-02-bug-calculo-total.md`
+| **Link da Issue** | https://github.com/FilipeTenedini/senac-localeats/issues/2 |
 
 ### Descrição do defeito (máx. 5 linhas)
 

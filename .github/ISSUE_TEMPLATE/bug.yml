@@ -1,0 +1,36 @@
+name: Defeito
+description: Registrar bug identificado por testes ou validação manual
+title: "[Bug] "
+labels: ["bug", "qualidade"]
+body:
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Severidade
+      options:
+        - Baixa
+        - Média
+        - Alta
+        - Crítica
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do defeito
+      description: O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Como reproduzir
+      placeholder: "1. Executar pytest\n2. Observar falha no teste X"
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true

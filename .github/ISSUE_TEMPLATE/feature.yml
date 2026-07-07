@@ -1,0 +1,31 @@
+name: Funcionalidade
+description: Planejar nova funcionalidade ou melhoria de qualidade
+title: "[Feature] "
+labels: ["enhancement", "qualidade"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para planejar funcionalidades do laboratório CI do LocalEats.
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo da funcionalidade
+      description: O que deve ser implementado e por quê?
+      placeholder: Ex.: Calcular o total do pedido com validação de valor mínimo
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceitação
+      description: Como saber que a funcionalidade está pronta?
+      placeholder: "- Total = soma dos itens\n- Rejeitar pedido abaixo do mínimo"
+    validations:
+      required: true
+  - type: textarea
+    id: testes
+    attributes:
+      label: Testes necessários
+      description: Quais testes automatizados devem ser criados?
+      placeholder: "Teste unitário: calcular total com valor mínimo atingido"

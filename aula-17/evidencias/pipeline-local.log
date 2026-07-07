@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0
+rootdir: aula-17/localeats-ci-laboratorio
+collected 3 items
+
+tests/test_pedido.py::test_deve_calcular_total_quando_valor_minimo_atingido PASSED [ 33%]
+tests/test_pedido.py::test_deve_aceitar_pedido_quando_total_e_exatamente_o_valor_minimo PASSED [ 66%]
+tests/test_pedido.py::test_deve_lancar_erro_quando_total_fica_abaixo_do_valor_minimo PASSED [100%]
+
+============================== 3 passed in 0.02s ===============================
